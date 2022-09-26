@@ -1,0 +1,19 @@
+.navigationItem{
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navigationItem a.active{
+  text-decoration: none;
+  height: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.navigationItem a.active:visited {
+  color: #fa0c14;
+}
+

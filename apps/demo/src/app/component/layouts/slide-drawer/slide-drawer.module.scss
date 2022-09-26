@@ -1,0 +1,19 @@
+.slideDrawer {
+  display: flex;
+  transition: transform 0.3s ease-out;
+}
+
+.open{
+  transform: translateX(0);
+}
+
+.close{
+  transform: translateX(-100%);
+}
+
+
+@media (min-width: 576px) {
+  .slideDrawer {
+    display: none;
+  }
+}

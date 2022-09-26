@@ -1,0 +1,29 @@
+.modal {
+  transition: opacity 0.3s ease-out;
+}
+
+.open {
+  opacity: 1;
+}
+
+.close {
+  opacity: 0;
+}
+
+.modal {
+  transition: opacity 0.3s ease-out;
+}
+
+.modalParent {
+  transition: opacity 0.5s ease-out;
+}
+
+
+.openParent {
+  opacity: 1;
+}
+
+.closeParent {
+  opacity: 0;
+}
+

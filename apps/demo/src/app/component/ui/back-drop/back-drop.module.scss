@@ -1,0 +1,10 @@
+.backDrop {
+  display: flex;
+}
+
+
+@media (min-width: 576px) {
+  .backDrop {
+    display: none;
+  }
+}

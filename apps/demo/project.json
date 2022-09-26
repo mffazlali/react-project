@@ -16,8 +16,15 @@
         "polyfills": "apps/demo/src/polyfills.ts",
         "tsConfig": "apps/demo/tsconfig.app.json",
         "assets": ["apps/demo/src/favicon.ico", "apps/demo/src/assets"],
-        "styles": ["apps/demo/src/styles.scss"],
-        "scripts": [],
+        "styles": [
+          "apps/demo/src/styles.scss",
+          "node_modules/bootstrap/dist/css/bootstrap.css",
+          "node_modules/bootstrap/dist/css/bootstrap.rtl.css",
+          "node_modules/bootstrap-icons/font/bootstrap-icons.css"
+        ],
+        "scripts": [
+          "node_modules/bootstrap/dist/js/bootstrap.js"
+        ],
         "webpackConfig": "@nrwl/react/plugins/webpack"
       },
       "configurations": {
